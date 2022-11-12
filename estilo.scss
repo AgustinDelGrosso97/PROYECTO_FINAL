@@ -50,7 +50,11 @@ display: inline;
 }
 
 h1{
-@include h1;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;  
 }
 
 h1:hover{
@@ -86,12 +90,4 @@ form{
 .row{
 
     margin-top: 40px;
-}
-
-@mixin h1 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-decoration: underline;  
 }
